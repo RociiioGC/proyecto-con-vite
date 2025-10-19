@@ -6,26 +6,37 @@ Este proyecto fue creado como parte de las prácticas del **Módulo 4 (React)** 
 
 ## 💻 Ejercicios incluidos
 
-### 🧠 Clase 01 & 02
+### 🧠 Clase 03 — Componentes y Props
 
-1. **Greeting Component**  
-2. **WelcomeMessage**  
-3. **UserProfile** con *Fragment*  
-4. **TaskList** con `.map()`  
-5. **LoginStatus** con render condicional  
-6. **Header y Footer** con *import/export*
+**Objetivos**
+- Componentes funcionales (funciones que devuelven JSX)
+- Pasar información con `props`
+- Desestructuración y valores por defecto
+- Uso de `children` para composición
+- Componer componentes en un caso práctico: `LoginForm`
 
----
+**Componentes creados**
+- `Input.jsx` — props: `type`, `placeholder`
+- `Button.jsx` — props: `label`, `disabled`, `variant` (`primary`, `secondary`, `danger`)
+- `Card.jsx` — usa `children` para envolver contenido
+- `LoginForm.jsx` — combina `Card`, `Input` y `Button`
 
-## 🚀 Cómo correr el proyecto
+**Ejemplo de uso**
+```jsx
+import LoginForm from "./components/LoginForm.jsx";
 
-1. Clonar este repositorio  
-2. Instalar dependencias:
-   ```bash
-   npm install
-3. Ejecutar el servidor:
-   npm run dev
-4. Abrir en el navegador: http://localhost:5173
+export default function App() {
+  return <LoginForm />;
+}
+
+🚀 Cómo correr el proyecto
+	1.	Clonar este repositorio
+	2.	Instalar dependencias:
+        npm install
+    3.	Ejecutar el servidor:
+        npm run dev
+    4.	Abrir en el navegador: http://localhost:5174
+    
 
 ✨ Creado por: Rocio Garcia Cabrera
 📚 Práctica del Módulo React — ADA Frontend
