@@ -1,28 +1,30 @@
-function Button({ label = "Enviar", disabled = false, variant = "primary" }) {
+const Button = ({ label = "Enviar", disabled = false, variant = "primary" }) => {
     const colors = {
-      primary: "#007bff",
-      secondary: "#6c757d",
-      danger: "#dc3545",
+      primary: "#3b82f6",
+      secondary: "#64748b",
+      danger: "#ef4444",
+      success: "#10b981",
     };
   
-    const background = disabled ? "#ccc" : colors[variant] || colors.primary;
+    const backgroundColor = disabled ? "#94a3b8" : colors[variant] || colors.primary;
   
     return (
       <button
         disabled={disabled}
         style={{
-          backgroundColor: background,
+          backgroundColor,
           color: "white",
-          padding: "8px 16px",
           border: "none",
           borderRadius: "6px",
-          width: "100%",
+          padding: "8px 16px",
           cursor: disabled ? "not-allowed" : "pointer",
+          width: "100%",
+          marginTop: "8px",
         }}
       >
         {label}
       </button>
     );
-  }
+  };
   
   export default Button;

@@ -1,17 +1,15 @@
-function Input({ placeholder, type = "text" }) {
-    return (
-      <input
-        type={type}
-        placeholder={placeholder}
-        style={{
-          width: "100%",
-          padding: "8px",
-          marginBottom: "10px",
-          border: "1px solid #ccc",
-          borderRadius: "6px",
-        }}
-      />
-    );
-  }
+const Input = ({ type = "text", placeholder = "Escribí algo..." }) => (
+    <input
+      type={type}
+      placeholder={placeholder}
+      style={{
+        padding: "8px",
+        border: "1px solid #ccc",
+        borderRadius: "6px",
+        width: "100%",
+        marginBottom: "8px",
+      }}
+    />
+  );
   
   export default Input;
