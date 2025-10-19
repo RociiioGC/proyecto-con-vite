@@ -8,6 +8,7 @@ const Input = ({ type = "text", placeholder = "Escribí algo..." }) => (
         borderRadius: "6px",
         width: "100%",
         marginBottom: "8px",
+        boxSizing: "border-box"
       }}
     />
   );
