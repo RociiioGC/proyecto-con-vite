@@ -28,6 +28,7 @@ import LoginForm from "./components/LoginForm.jsx";
 export default function App() {
   return <LoginForm />;
 }
+--- 
 
 🚀 Cómo correr el proyecto
 	1.	Clonar este repositorio
@@ -36,7 +37,8 @@ export default function App() {
     3.	Ejecutar el servidor:
         npm run dev
     4.	Abrir en el navegador: http://localhost:5174
-    
+
+--- 
 
 ✨ Creado por: Rocio Garcia Cabrera
 📚 Práctica del Módulo React — ADA Frontend
