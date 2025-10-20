@@ -1,12 +1,12 @@
-import LoginStatus from "./componentes/LoginStatus";
-import Notificaciones from "./componentes/Notificaciones";
+import LoginStatus from "./components/LoginStatus";
+import Notificaciones from "./components/Notificaciones";
 
 const user = {
   name: "Rocio",
   isLoggedIn: true,
 };
 
-const cantidadNotificaciones = 3;
+const cantidadNotificaciones = 4;
 
 function App() {
   return (
