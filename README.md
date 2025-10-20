@@ -1,16 +1,29 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ # ⚛️ Clase 04 – Renderizado condicional y props booleanas
 
-Currently, two official plugins are available:
+Proyecto del **Módulo 4 de React (ADA)** para practicar el **renderizado condicional**, el uso de **props booleanas** y la composición de componentes simples.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🧩 Conceptos aplicados
+- `if / else` → Mostrar u ocultar contenido (`LoginStatus`)
+- `return null` → Evitar renderizado (`Notificaciones`)
+- `? :` (ternario) → Alternar entre dos mensajes (`EstadoCarga`)
+- `&&` → Renderizar solo si una condición es verdadera (`Mensajes`)
+- Props booleanas y numéricas para controlar estados visuales
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧠 Componentes creados
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Componente | Descripción | Lógica usada |
+|-------------|--------------|---------------|
+| **LoginStatus** | Muestra “Bienvenid@” o “Inicia sesión” | `if / else` |
+| **Notificaciones** | Muestra cantidad o nada si es 0 | `return null` |
+| **EstadoCarga** | “Cargando…” / “Datos listos ✅” | Operador ternario |
+| **Mensajes** | “Tienes nuevos mensajes” si hayMensajes = true | `&&` |
+
+---
+✨ Creado por: Rocio García Cabrera
+📚 Módulo 4 – React / Clase 04 (ADA Frontend)
