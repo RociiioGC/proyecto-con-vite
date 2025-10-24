@@ -1,4 +1,4 @@
-const Card = ({ user }) => {
+const Card = ({ user, toggleActive }) => {
     const { name, email, country, role, isActive } = user;
   
     const cardStyle = {
@@ -21,9 +21,11 @@ const Card = ({ user }) => {
         <p style={rowStyle}><strong>Rol:</strong> {role}</p>
         <p style={rowStyle}>
           <strong>Estado:</strong> {isActive ? "Activo" : "Baja"}
+          <button onClick = {toggleActive}> </button>
         </p>
       </div>
     );
   };
+
 
 export default Card 

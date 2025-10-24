@@ -1,25 +1,24 @@
-import {users} from './utils/data.js'
-import List from './components/List.jsx';
+import { users } from "./utils/data.js";
+import List from "./components/List.jsx";
+import { useState } from "react";
 
-
+let counter = 0;
 
 function App() {
-  const activeUsers = users.filter(user=>user.isActive)
+  const [count, setCount] = useState(10);
+  const activeUsers = users.filter((user) => user.isActive);
+
   return (
     <div style={styles.wrapper}>
       <h1>Gestión de Usuarios</h1>
-      <List title="Todos los usuarios" users={users} />
-      <hr/>
-      <List title="Usuarios activos" users={activeUsers}/>
+
+      <List title="Todos los usuarios" users={users} showFilter />
     </div>
   );
 }
 
 const styles = {
-  wrapper: {
-    padding: "32px 20px",
-    textAlign: "center",
-  },
+  wrapper: { padding: "32px 20px", textAlign: "center" },
   filterBtn: {
     background: "#2ecc71",
     color: "#fff",
