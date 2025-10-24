@@ -2,7 +2,8 @@
 import Counter from "./components/Counter.jsx";
 import Form from "./components/Form.jsx";
 import TodoList from "./components/ToDoList.jsx";
-
+import ColorToggle from "./components/ColorToggle.jsx";
+import Parent from "./components/Parent.jsx";
 
 function App() {
   return (
@@ -14,6 +15,10 @@ function App() {
       <Form />
       <hr />
       <TodoList />
+      <hr />
+      <ColorToggle />
+      <hr />
+      <Parent />
     </div>
   );
 }
