@@ -25,3 +25,6 @@ export const users = [
     },
   ];
 
+  export const roles = ["Frontend", "Backend", "Diseño", "QA"];
+
+  export const suma = (a, b) => a + b;

@@ -1,18 +1,21 @@
-import Card from './components/Card.jsx'
+import Card from './Card.jsx'
 
 const List = ({title, users}) => {
     return (
         <div style={styles.section}>
         <h2>{title}</h2>
         <div style={styles.container}>
-            {users.map((users)=> (
-                <Card key={user.id} user = {user} />
-            ))}
+          {users.map((user) => (
+          <Card key={user.id} user={user} />
+    ))}
+            
         </div>
 
         </div>
     );
 };
+
+export default List;
 
 const styles = {
   section: { marginTop: "20px"},
@@ -24,4 +27,3 @@ const styles = {
   },
 };
 
-export default List;

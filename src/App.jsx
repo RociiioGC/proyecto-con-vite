@@ -1,5 +1,5 @@
 import {users} from './utils/data.js'
-import List from './components/list.jsx'
+import List from './components/List.jsx';
 
 
 
