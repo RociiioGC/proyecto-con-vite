@@ -18,12 +18,13 @@ const List = ({title, users}) => {
 export default List;
 
 const styles = {
-  section: { marginTop: "20px"},
-  container: {
-    display: "grid",
-    gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))",
-    gap: "16px",
-    marginTop: "10px",
-  },
-};
+    section: { marginTop: "28px", maxWidth: "1100px", marginInline: "auto" },
+    container: {
+      display: "grid",
+      gridTemplateColumns: "repeat(auto-fill, minmax(260px, 1fr))",
+      gap: "20px",
+      marginTop: "16px",
+      alignItems: "stretch",
+    },
+  };
 

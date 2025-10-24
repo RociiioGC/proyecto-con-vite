@@ -17,7 +17,7 @@ function App() {
 
 const styles = {
   wrapper: {
-    padding: "20px",
+    padding: "32px 20px",
     textAlign: "center",
   },
   filterBtn: {
