@@ -1,16 +1,22 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Clase 06 – Inputs y useState en React
 
-Currently, two official plugins are available:
+🎯 Objetivo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Aprender a manejar inputs controlados en React utilizando el hook useState, entendiendo cómo capturar, actualizar y mostrar datos ingresados por el usuario.
 
-## React Compiler
+⸻
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🧠 Contenidos principales
+	•	useState: creación y actualización del estado local.
+	•	Inputs controlados: sincronizar los valores del formulario con el estado.
+	•	Manejo de eventos (onChange, onSubmit).
+	•	Select, checkbox y text inputs controlados.
+	•	Renderizado dinámico de los datos ingresados.
+	•	Diferencia entre inputs controlados y no controlados (useRef).
 
-## Expanding the ESLint configuration
+⸻
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✨ Creado por: Rocio García Cabrera
+📚 Módulo 4 – React / Clase 06 (ADA Frontend)
