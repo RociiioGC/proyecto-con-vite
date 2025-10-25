@@ -6,7 +6,7 @@
 
 Aprender a manejar inputs controlados en React utilizando el hook useState, entendiendo cómo capturar, actualizar y mostrar datos ingresados por el usuario.
 
-⸻
+---
 
 🧠 Contenidos principales
 	•	useState: creación y actualización del estado local.
@@ -16,7 +16,7 @@ Aprender a manejar inputs controlados en React utilizando el hook useState, ente
 	•	Renderizado dinámico de los datos ingresados.
 	•	Diferencia entre inputs controlados y no controlados (useRef).
 
-⸻
+---
 
 ✨ Creado por: Rocio García Cabrera
 📚 Módulo 4 – React / Clase 06 (ADA Frontend)
