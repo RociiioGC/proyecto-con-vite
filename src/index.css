@@ -66,3 +66,114 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+/* ---------------- */
+/* ESTILOS PROPIOS  */
+/* ---------------- */
+
+.section {
+  background: #ffffff;
+  color: #222;
+  padding: 24px 32px;
+  margin: 40px auto;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    
+}
+
+form.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+label.grid {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: #444;
+}
+
+.input {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+  font-size: 15px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  background-color: #f4f4f4;
+ 
+  
+}
+
+.input:focus {
+  border-color: #2ecc71;
+  box-shadow: 0 0 4px rgba(46, 204, 113, 0.3);
+  outline: none;
+  background-color: #fff;
+}
+
+select.input {
+  -webkit-appearance: none;   /* Safari/Chrome */
+  -moz-appearance: none;      /* Firefox */
+  appearance: none;           /* estándar */
+
+  background-color: #ffffff !important;
+  color: #000000 !important;
+
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px 36px 10px 12px;
+  font-size: 15px;
+
+  box-shadow: none;           
+  background-image: none;    
+
+  background-image:
+    linear-gradient(45deg, transparent 50%, #555 50%),
+    linear-gradient(135deg, #555 50%, transparent 50%),
+    linear-gradient(to right, transparent, transparent);
+  background-position:
+    calc(100% - 18px) 50%,
+    calc(100% - 12px) 50%,
+    0 0;
+  background-size: 6px 6px, 6px 6px, 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+
+.button {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.button:hover {
+  background-color: #27ae60;
+  transform: scale(1.03);
+}
+
+.result {
+  margin-top: 24px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: left;
+  font-size: 15px;
+  color: #333;
+  border: 1px solid #e0e0e0;
+}
+
